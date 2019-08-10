@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Reslay">
+
+
+    <TextView
+        android:id="@+id/resmaintext1"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:background="#CEAB64"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#5F5E48"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/rescan1"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext1"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text=""
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste1"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:text=""
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rescan2"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext2"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste2"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rescan3"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext3"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate3"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste3"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rescan4"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext4"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate4"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste4"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rescan5"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext5"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate5"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste5"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rescan6"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext6"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate6"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste6"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rescan7"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext7"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate7"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste7"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rescan8"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:layout_marginTop = "5dp">
+
+        <TextView
+            android:id="@+id/restext8"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:text="Candidate8"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/reste8"
+            android:layout_width="413dp"
+            android:layout_height="match_parent"
+            android:background="#C4C2C2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft = "5dp"/>
+    </LinearLayout>
+</LinearLayout>

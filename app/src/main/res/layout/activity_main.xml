@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/viewtop"
+    android:layout_width="1138dp"
+    android:layout_height="59dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/abc" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="1038dp"
+            android:layout_height="59dp"
+            android:background="#CEAB64"
+            android:gravity="center"
+            android:text="એન.જે.વિદ્યાલય ચૂંટણી - ૨0૧૯"
+            android:textColor="#5F5E48"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:text="ક્રમ"
+            android:gravity="center"
+            android:background="#C4C2C2"
+            android:textSize="27sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="720dp"
+            android:layout_height="50dp"
+            android:text="નામ"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="27sp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="173dp"
+            android:layout_height="50dp"
+            android:text="ચિન્હ"
+            android:gravity="center"
+            android:background="#C4C2C2"
+            android:textSize="27sp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="મત"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="27sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:background="#6B6464"
+            android:gravity="center"
+            android:text="૧"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#C4C2C2"
+            android:hint="Candidate 1"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb1"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym1"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button1"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૨"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#6B6464"
+            android:hint="Candidate 2"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb2"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym2"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button2"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૩"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#C4C2C2"
+            android:hint="Candidate 3"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="27sp"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb3"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym3"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button3"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૪"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#6B6464"
+            android:hint="Candidate 4"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb4"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym4"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button4"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૫"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#C4C2C2"
+            android:hint="Candidate 5"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="27sp"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb5"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym5"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button5"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૬"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#6B6464"
+            android:hint="Candidate 6"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb6"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym6"/>
+
+
+        <RelativeLayout android:id="@+id/RelativeLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button6"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૭"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:background="#C4C2C2"
+            android:hint="Candidate 7"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="27sp"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb7"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym7"/>
+
+        <RelativeLayout android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button7"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="45dp"
+            android:layout_height="59dp"
+            android:text="૮"
+            android:gravity="center"
+            android:background="#6B6464"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="720dp"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:background="#6B6464"
+            android:hint="Candidate 8"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="3dp"/>
+
+        <ImageView
+            android:id="@+id/symb8"
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:background="#8B6969"
+            app:srcCompat="@drawable/sym8"/>
+
+
+        <RelativeLayout android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#C4C2C2">
+
+            <Button
+                android:id="@+id/push_button8"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_bg_round" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botbuttons"
+        android:layout_width="1138dp"
+        android:layout_height="59dp"
+        android:gravity="center">
+    <Button
+        android:id="@+id/lock"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#5F5E48"
+        android:background="#CEAB64"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="2dp"
+        android:text="Lock">
+    </Button>
+
+    <Button
+        android:id="@+id/results"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#5F5E48"
+        android:background="#CEAB64"
+        android:layout_marginTop="2dp"
+        android:text="Results"
+        />
+
+    </LinearLayout>
+</LinearLayout>
